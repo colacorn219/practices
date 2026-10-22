@@ -1,0 +1,36 @@
+footer {
+    background-color: #EEE2EC;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    padding: 40px 0;
+}
+.footerContent {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.footerMini {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    max-width: 350px;
+}
+.footer img {
+    max-width: 86px;
+}
+.footer a {
+    color: #96658D;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: 1px solid #DCCFD4;
+}

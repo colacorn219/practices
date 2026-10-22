@@ -1,0 +1,97 @@
+@font-face {
+  font-family: IR;
+  src: url('assets/fonts/Inter-Regular.ttf');
+}
+
+@font-face {
+  font-family: ISB;
+  src: url('assets/fonts/Inter-SemiBold.ttf');
+}
+
+@font-face {
+  font-family: IL;
+  src: url('assets/fonts/Inter-ExtraLight.ttf');
+}
+
+@font-face {
+  font-family: LI;
+  src: url('assets/fonts/Lora-Italic.ttf');
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  transition: 0.5s;
+  scroll-behavior: smooth;
+  font-family: IR;
+}
+
+body {
+  background-color: #FFF9F0;
+}
+
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.btn {
+  display: flex;
+  padding: 14px 22px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  color: #fff;
+  border-radius: 6px;
+  border: 1.5px solid #96658D;
+  background: #96658D;
+  font-family: ISB;
+  fill: #fff;
+  stroke: #fff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.btn:hover {
+  color: #96658D;
+  background: transparent;
+  fill: #96658D;
+  stroke: #96658D;
+}
+
+.plash {
+  color: #96658D;
+  font-family: ISB;
+}
+
+.textRow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 6px;
+  flex: 1 0 0;
+}
+
+.greyText {
+  color: #7F7079;
+  font-weight: 400;
+}

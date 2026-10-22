@@ -1,0 +1,17 @@
+.Prems {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px 0;
+    align-items: flex-start;
+    gap: 24px;
+    align-self: stretch;
+    border-top: 1px solid #DCCFD4;
+    border-bottom: 1px solid #DCCFD4;
+}
+
+.PremCard {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
